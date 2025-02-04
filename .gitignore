@@ -1,0 +1,102 @@
+# Visual Studio-specific
+.vs/
+*.user
+*.suo
+*.vssscc
+*.cache
+*.csproj.user
+*.dbmdl
+*.jfm
+
+# Build and bin/obj folders
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Logs and generated files
+*.log
+*.tlog
+*.lastcodeanalysissucceeded
+*.pidb
+*.sdf
+*.ilk
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.sbr
+*.vsp
+*.vspx
+*.psess
+*.pdl
+*.pdb
+
+# NuGet packages
+packages/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+# Avoid committing package binaries
+!packages/**/*.nupkg
+
+# Entity Framework Migrations
+Migrations/
+
+# Resharper and Rider
+*.sln.docstates
+.idea/
+*.DotSettings.user
+
+# macOS files
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# .NET Core
+.env
+.env.development.local
+.env.production.local
+.env.test.local
+.env.local
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+appsettings.Test.json
+appsettings.json
+
+# IIS
+*.vs/
+
+# Rider & VS Code
+.vscode/
+*.code-workspace
+
+# SonarQube
+.sonarqube/
+
+# Other settings
+*.bak
+*.swp
+*.tmp
+
+# User-specific files
+*.rsuser
+*.userprefs
+*.suo
+*.ntvs*
+*.njsproj
+*.sln*
+
+# SSL Certificates
+*.pfx
+*.p12
